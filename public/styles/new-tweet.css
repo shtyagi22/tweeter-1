@@ -1,7 +1,35 @@
-main.container.new-tweet {
+main .container {
+  background-color: lightgray;
 
+}
+
+main .tweet-form {
+  width: 100%;
+ 
+  font-family: sans-serif;
+}
+
+main .tweet-text {
+  width: 100%;
+  border: none;
+  border-bottom: 4px solid black;
+}
+
+main .form-input {
+  background-color: #4056A1;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
+
+main .counter {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
 
+  font-size: 25px;
+  font-weight: bold;
+  color: black
 }
