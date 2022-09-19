@@ -32,14 +32,14 @@ main .counter {
   color: black
 }
 
-main #tweet-container {
+main .tweet-container {
   transition: box-shadow .5s;
   margin: 50px;
   border: 2px solid black;
   padding: 60px;
 }
 
-main #tweet-container:hover {
+main .tweet-container:hover {
   box-shadow: 10px 10px rgba(33, 33, 33, .2);
 }
 
