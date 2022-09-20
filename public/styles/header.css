@@ -8,3 +8,35 @@ header {
   background-image: url("https://www.transparenttextures.com/patterns/basketball.png");
 
 }
+
+@media only screen and (min-width: 1024px) {
+
+  nav {
+    top: 0;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    font-size: 10pt;
+
+  }
+
+
+  header {
+    width: 80%;
+    height: 400px;
+    margin-left: 50px;
+
+  }
+
+  .super-container {
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-around;
+  }
+
+  main {
+    width: 90%;
+    background-color: #f4f1ec;
+    padding: 1.5em;
+  }
+
+}

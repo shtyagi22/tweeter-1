@@ -19,8 +19,7 @@ main .form-input {
   background-color: #4056A1;
   border: none;
   color: white;
-  text-align: center;
-  text-decoration: none;
+  text-align: left;
   display: inline-block;
   font-size: 25px;
 }
@@ -57,8 +56,10 @@ main .tweet-article {
   color: black;
 }
 
-.fa-flag:hover {
 
+
+.fa-flag:hover {
+ 
   color: goldenrod !important;
 }
 
@@ -68,6 +69,6 @@ main .tweet-article {
 }
 
 .fa-retweet:hover {
-
+ 
   color: blue !important;
 }
