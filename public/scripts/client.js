@@ -66,7 +66,7 @@ $(document).ready(() => {
       alert("Input can't be empty");
       return;
     }
-    if(textContent.length > 140){
+    if (textContent.length > 140) {
       alert("Input can't be more than 140 chars");
       return;
     }
@@ -83,7 +83,6 @@ $(document).ready(() => {
       data: data
     })
       .done(function () {
-        alert("success");
         $('#tweet-container').empty();
         $textInput.val("");
         loadtweets();
