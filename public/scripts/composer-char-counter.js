@@ -11,10 +11,5 @@ const onInput = function (event) {
   const $counter = $form.find('span.counter');
 
   $counter.text(charsLeft);
-
-  if (charsLeft < 0) {
-    $('.counter').addClass('form--red');
-  } else {
-    $('.counter').removeClass('form--red');
-  }
+  
 }

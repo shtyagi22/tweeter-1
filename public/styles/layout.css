@@ -33,3 +33,7 @@ main {
   background-color: #f4f1ec;
   padding: 1.5em;
 }
+
+red-counter {
+  color: red;
+}
