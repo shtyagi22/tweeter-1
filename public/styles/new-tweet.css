@@ -51,7 +51,6 @@ main .tweet-header {
 main .tweet-article {
   width: 100%;
   border-bottom: 4px solid black;
-  text-align: center;
   font-size: 25px;
   color: black;
 }
@@ -59,7 +58,7 @@ main .tweet-article {
 
 
 .fa-flag:hover {
- 
+
   color: goldenrod !important;
 }
 
@@ -69,6 +68,10 @@ main .tweet-article {
 }
 
 .fa-retweet:hover {
- 
+
   color: blue !important;
+}
+
+.counter.red-counter {
+  color: red;
 }
